@@ -15,24 +15,34 @@
 <body>
     <div class="container">
         <!-- é uma parte geral do anuncio -->
-        <div class="card">
-            <!-- é uma parte do lado esquerdo do anuncio -->
-            <div class="card_left">
+        <!-- <div class="card"> -->
+        <!-- é uma parte do lado esquerdo do anuncio -->
+        <!-- <div class="card_left">
                 <span>By Matheus Marques</span>
                 <a href="#">Darth Vader Contrata Devs</a>
                 <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes</p>
-            </div>
-            <!-- é uma parte do lado direito do anuncio (nesse caso uma img) -->
-            <div class="card_right">
+            </div> -->
+        <!-- é uma parte do lado direito do anuncio (nesse caso uma img) -->
+        <!-- <div class="card_right">
                 <img src="assets/asset-vader.png" alt="" srcset="">
             </div>
-        </div>
+        </div> -->
+        <card-news 
+         autor="Matheus"
+         title=" Darth Vader Contrata" 
+         link-url="www.google.com"
+         content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes"
+         photo="assets/asset-vader.png">
+        </card-news>
+
+        <card-news 
+        title=" Yoda faz publicidade a respeito de web-component!" 
+        link-url="www.google.com/yoda"
+        content="Yoda choca publicidade com comentário ousado">
+       </card-news>
     </div>
 
-    <card-news autor="Matheus"
-     title=" Darth Vader Contrata"
-     content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes">
-    </card-news>
+
     <titulo-dinamico titulo="Noticia importante!"></titulo-dinamico>
 </body>
 

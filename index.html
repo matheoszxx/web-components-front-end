@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL DE NOTÍCIAS GALACTICA</title>
+    <!-- Linkando o CSS -->
+    <link rel="stylesheet" href="styles/card.css">
+    <!-- defer faz com que esse caminho seja executado só apos a DOM for criada -->
+    <script src="src/Components/CardNews.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- é uma parte geral do anuncio -->
+        <div class="card">
+            <!-- é uma parte do lado esquerdo do anuncio -->
+            <div class="card_left">
+                <span>By Matheus Marques</span>
+                <a href="#">Darth Vader Contrata Devs</a>
+                <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes</p>
+            </div>
+            <!-- é uma parte do lado direito do anuncio (nesse caso uma img) -->
+            <div class="card_right">
+                <img src="assets/asset-vader.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <card-news></card-news>
+</body>
+</html>
